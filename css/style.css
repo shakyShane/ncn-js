@@ -111,16 +111,6 @@ p {
     left: 0;
     width: 100%;
     background: #3a3c4c;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .3s;
-    transform: translateY(-100%);
-}
-
-.site-nav.active {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
 }
 
 @media only screen and (min-width: 750px) {
@@ -129,9 +119,6 @@ p {
         float: right;
         width: auto;
         background: none;
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
     }
 }
 
